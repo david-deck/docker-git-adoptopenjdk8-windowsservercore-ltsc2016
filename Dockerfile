@@ -1,4 +1,4 @@
-FROM --platform=windows/amd64 edgehog/windows.servercore.ltsc2016-openjdk8
+FROM --platform=windows/amd64 edgehog/adoptopenjdk:8-jdk-hotspot-windowsservercore-ltsc2016
 
 RUN choco install git -y
 RUN git --version
